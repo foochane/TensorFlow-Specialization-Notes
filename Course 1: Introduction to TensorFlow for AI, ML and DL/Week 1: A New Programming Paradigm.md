@@ -79,3 +79,24 @@ model.compile(optimizer='adam',
 
 model.fit(x_train, y_train, epochs=10, callbacks=[callbacks])
 ```
+
+
+
+执行fashion_mnist.load_data()失败
+错误提示
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
+......
+Exception: URL fetch failure on https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz: None -- [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+处理方法1
+
+选择一个链接，
+
+https://github.com/zalandoresearch/fashion-mnist/tree/master/data/fashion
+https://storage.googleapis.com/tensorflow/tf-keras-datasets/
+手工下载下面四个文件，并存放在“~/.keras/datasets”下的fashion-mnist目录。
+
+train-labels-idx1-ubyte.gz
+train-images-idx3-ubyte.gz
+t10k-labels-idx1-ubyte.gz
+t10k-images-idx3-ubyte.gz
