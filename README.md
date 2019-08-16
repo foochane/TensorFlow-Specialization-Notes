@@ -1,11 +1,12 @@
 # TensorFlow-Specialization-Notes
-TensorFlow Specialization Learining Notes
+TensorFlow in Practice 专项课程笔记
 
+## 课程地址：
+https://www.coursera.org/specializations/tensorflow-in-practice?#courses
 
-c.NotebookApp.password = u'sha1:44e1333f4fd9:5f069fb814bfe0423e3f42a3df01e4b0cb3dcce1' #刚刚生成的SHA密钥
-c.NotebookApp.certfile = u'/home/hadoop/.local/hadoop/mycert.pem' #mycert.pem文件位置
-c.NotebookApp.ip = 'Node02' #本机ip
-c.NotebookApp.port = 9999 #端口
-c.NotebookApp.notebook_dir = '/home/fc/work/user/notebook'
+## 课程内容：
 
-    nohup jupyter notebook --ip=Node02 --no-browser --allow-root >> jupyter.log &
+- Course 1:Introduction to TensorFlow for AI, ML and DL
+- Course 2:Convolutional Neural Networks in TensorFlow
+- Course 3:Natural Language Processing in TensorFlow
+- Course 4:Sequences, Time Series and Prediction
