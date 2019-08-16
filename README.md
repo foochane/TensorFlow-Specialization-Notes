@@ -1,4 +1,4 @@
-# TensorFlow-Specialization-Notes
+# TensorFlow-in-Practice-Notes
 TensorFlow in Practice 专项课程笔记
 
 ## 课程地址：
